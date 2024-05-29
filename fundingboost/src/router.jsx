@@ -10,9 +10,8 @@ const MypageMyfunding = lazy(() => import('./components/pages/mypage/mypage-myfu
 const MypageFundingHistory = lazy(() => import('./components/pages/mypage/mypage-funding-history-page/mypage-myfunding-history-page'));
 const FundingRegistPage = lazy(() => import('./components/pages/fundingRegist-page/fundingRegist-Page'));
 
-const PaySuccessPage = lazy(() => import('./components/pages/pay-success-page/pay-success-page'));
 const FundingPayPage = lazy(() => import('./components/pages/mypay-page/mypay-page'));
-const FundingSuccessPage = lazy(() => import('./components/pages/funding-success-page/funding-success-page'));
+const PaySuccessPage = lazy(() => import('./components/pages/funding-success-page/funding-success-page'));
 const FriendFundingDetail = lazy(() => import('./components/pages/friendFundingDetail-page/friendFundingDetail-page'));
 const FriendFundingPayPage = lazy(() => import('./components/pages/friendFundingPay-page/friendFundingPay-page'));
 const FundingSuccessPage = lazy(() => import('./components/pages/pay-success-page/pay-success-page'));
